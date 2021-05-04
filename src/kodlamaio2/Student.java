@@ -1,4 +1,4 @@
-package kodlamaioagain;
+package kodlamaio2;
 
 public class Student extends User{
 	
@@ -8,8 +8,8 @@ public class Student extends User{
 	public Student() {
 		
 	}
-	public Student(String studentNumber, String cardNumber) {
-		super();
+	public Student(int id, String email, String password, String firstName, String lastName, String studentNumber, String cardNumber) {
+		super(id, email, password, firstName, lastName);
 		this.studentNumber = studentNumber;
 		this.cardNumber = cardNumber;
 	}

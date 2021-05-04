@@ -1,4 +1,4 @@
-package kodlamaioagain;
+package kodlamaio2;
 
 public class Instructor extends User{
 	
@@ -8,11 +8,12 @@ public class Instructor extends User{
 	public Instructor() {
 		
 	}
-	public Instructor(int instructorNumber, String branch) {
-		super();
+	public Instructor(int id,String email, String password, String firstName, String lastName, int instructorNumber, String branch) {
+		super(id, email, password, firstName, lastName);
 		this.instructorNumber = instructorNumber;
 		this.branch = branch;
 	}
+
 	public int getInstructorNumber() {
 		return instructorNumber;
 	}

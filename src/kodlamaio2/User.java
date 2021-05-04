@@ -1,4 +1,4 @@
-package kodlamaioagain;
+package kodlamaio2;
 
 public class User {
 	private int id;
